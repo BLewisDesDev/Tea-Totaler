@@ -1,0 +1,61 @@
+
+// - - - - - Website Tea Totaler - - - - - \\
+
+Questions:
+- Framework (.NetCore)
+- Template (Template sites)
+- Animation packages (research...?)
+
+
+// - - - - - Demo Functionality - - - - - \\
+
+- Home page
+	> iFrame Banner
+	> NavBar
+	> Social Links working
+	> Donate Link working
+	> Footer
+
+- Contact Form
+	> No back end
+
+
+// - - - - - Full Functionality - - - - - \\
+
+- Login
+	> Login Admin
+	> Login Sudent
+	> Login Client
+
+- Contact Form
+	> Client Contact Form
+	> Student Contact Form
+
+- Donate Link
+	> Paypal / card functionality / crypto donate link / research?
+
+- Database Functionality
+	> CRUD Customer Records
+
+- Email List -> mail chimp
+- Email Staff with new contacts (customisable)
+
+
+Content:
+- Subtle classy animations
+- Minimal Styling
+- Profssional
+- Embedded video and pictures
+
+Inspiration:
+- Goldman Sacchs
+- Gates Foundation
+
+
+// - - - - - Contact Form - - - - - \\
+
+Name:
+Location:
+Phone:
+Email:
+Message:
