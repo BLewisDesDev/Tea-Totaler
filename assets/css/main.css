@@ -2418,10 +2418,10 @@ body {
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #111111;
+  background: #ffffff;
   color: rgba(255, 255, 255, 0.5);
   cursor: default;
-  height: 3.25rem;
+  height: 6.15rem;
   left: 0;
   line-height: 3.25rem;
   position: fixed;
