@@ -7,7 +7,7 @@
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
 		@include vendor('justify-content', 'center');
-		background-image: url('../../images/banner.jpg');
+		background-image: url('../../images/Images&Film/Frame3.png');
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -66,14 +66,14 @@
 		}
 
 		&:before {
-			@include vendor('transition', 'opacity 3s ease');
-			@include vendor('transition-delay', '#{_duration(banner) * 1.25}');
+			@include vendor('transition', 'opacity 2s ease');
+			@include vendor('transition-delay', '#{_duration(banner)}');
 			background: _palette(accent2,bg);
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.45;
+			opacity: 0;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -81,15 +81,15 @@
 		}
 
 		&:after {
-			background: linear-gradient(135deg, _palette(accent1,bg) 0%,_palette(accent2,bg) 74%);
+			// background: linear-gradient(135deg, _palette(accent1,bg) 0%,_palette(accent2,bg) 74%);
 			content: ' ';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.6;
+			opacity: 0.3;
 			position: absolute;
 			top: 0;
-			webkit-linear-gradientidth: 100%;
+			// webkit-linear-gradientidth: 100%;
 			width: 100%;
 			z-index: 1;
 		}

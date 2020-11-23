@@ -1,9 +1,9 @@
 /* CTA */
 
 	#cta {
-		@include color(accent1);
+		// @include color(accent1);
 		background-attachment: fixed;
-		background-image: linear-gradient(transparentize(_palette(accent1,bg), 0.75), transparentize(_palette(accent1,bg), 0.75)), url(../../images/cta01.jpg);
+		background-image: linear-gradient(transparentize(_palette(accent1,bg), 0.75), transparentize(_palette(accent1,bg), 0.75)), url(../../images/Images&Film/OutlookClear.jpg);
 		background-position: bottom;
 		background-repeat: no-repeat;
 		background-size: cover;

@@ -6,7 +6,7 @@
 // Duration.
 	$duration: (
 		menu:				0.5s,
-		banner:				1s,
+		banner:				0.3s,
 		transition:			0.2s
 	);
 
@@ -16,7 +16,7 @@
 		element-height:		3.25rem,
 		element-margin:		2rem,
 		container-width:	80rem,
-		header-height:		5.15rem,
+		header-height:		5.25rem,
 		inner-width:		75rem,
 		menu-width:			20rem
 	);
@@ -32,35 +32,39 @@
 	);
 
 // Palette.
+
+//Talento Total Colors
+
+
 	$palette: (
-		bg:					#ffffff,
-		fg:					#444444,
-		fg-bold:			#555555,
-		fg-light:			#bbbbbb,
-		border:				rgba(0,0,0,0.25),
-		border-bg:			rgba(0,0,0,0.075),
-		border-lt:			rgba(0,0,0,0.025),
-		highlight:			accent1,
+		bg:					#ffffff, 					//Background
+		fg:					#444444,					//Foreground
+		fg-bold:			#555555,					//Foreground Bold
+		fg-light:			#bbbbbb,					//Foreground Light
+		border:				rgba(0,0,0,0.5),			//Border
+		border-bg:			rgba(0,0,0,0.5),			//Border Background
+		border-lt:			rgba(0,0,0,0.25),			//Border Light
+		highlight:			accent1,				
 
 		accent1: (
-			bg:				#97d0ff, 	//Accent Color
-			fg:				rgba(255,255,255,0.75),
-			fg-bold:		#ffffff,
-			fg-light:		rgba(255,255,255,0.4),
-			border:			rgba(255,255,255,0.25),
-			border-bg:		rgba(255,255,255,0.075),
-			border-lt:		rgba(255,255,255,0.025),
+			bg:				#97d0ff, 	//Background
+			fg:				rgba(255,255,255,0.5),		//Foreground
+			fg-bold:		#ffffff,					//Foreground Bold
+			fg-light:		rgba(255,255,255,0.5),		//Foreground Light
+			border:			rgba(255,255,255,0.5),		//Border
+			border-bg:		rgba(255,255,255,0.5),		//Border Background
+			border-lt:		rgba(102, 102, 102,0.5),	//Border Light
 			highlight:		accent1
 		),
 
 		accent2: (
-			bg:				#ffffff,
-			fg:				rgb(0, 0, 0), 	//Menu items
-			fg-bold:		#6e6e6e,		// Highlite
-			fg-light:		rgba(255,255,255,0.4),
-			border:			rgba(255,255,255,0.25),
-			border-bg:		rgba(255,255,255,0.075),
-			border-lt:		rgba(255,255,255,0.025),
+			bg:				#ffffff,					
+			fg:				rgb(0, 0, 0), 				//Menu items
+			fg-bold:		#6e6e6e,					//Highlight
+			fg-light:		rgba(255,255,255,0.5),
+			border:			rgba(53, 53, 53, 0.5),
+			border-bg:		rgba(255,255,255,0.5),
+			border-lt:		rgba(255,255,255,0.5),
 			highlight:		accent1
 		)
 	);
